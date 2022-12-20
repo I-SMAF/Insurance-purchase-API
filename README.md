@@ -1158,7 +1158,7 @@ curl --location \
 | organizational_legal_form | string     | организационно правовая форма   | Да           |
 | phone_number              | string     | номер телефона                  | Нет          |
 | state_registration_number | string     | ОГРН                            | Нет          |
-| state_registration_number | string     | ИНН                             | Нет          |
+| taxpayer_id               | string     | ИНН                             | Нет          |
 
 **Параметры валидации**
 
