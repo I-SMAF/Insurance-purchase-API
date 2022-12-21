@@ -596,23 +596,23 @@ curl --location \
 
 **Тело запроса**
 
-| Поле                   | Тип данных     | Описание                             | Обязательный     |
-|------------------------|----------------|--------------------------------------|------------------|
-| amount_multiple_tariff | number         | страховая сумма                      | Да/Нет (прим. 1) |
-| amount_one_time_tariff | number         | страховая сумма                      | Нет/Да (прим. 1) |
-| country                | array(numbers) | список идентификаторов стран         | Да               |
-| currency_type          | string         | валюта заказа                        | Да               |
-| date_from              | string         | дата начала действия договора        | Да               |
-| date_to                | string         | дата окончания действия договора     | Да               |
-| days_count             | number         | кол-во дней страховой защиты         | Да/Нет (прим. 1) |
-| insuring_type          | string         | тип страхователя                     | Да               |
-| medicine_franchise     | number         | франшиза                             | Да (прим.2)      |
-| multiple_tariff        | number         | идентификатор программы              | Да/Нет (прим. 1) |
-| one_time_tariff        | number         | идентификатор программы              | Нет/Да (прим. 1) |
-| period                 | number         | период действия полиса               | Да/Нет (прим. 1) |
-| start_alien            | boolean        | начало поездки с терр. ин-го. гос-ва | Нет              |
-| traveling_type         | string         | тип поездки                          | Да               |
-| clients_comment        | string         | комментарий                          | Нет              |
+| Поле                   | Тип данных     | Описание                                    | Обязательный     |
+|------------------------|----------------|---------------------------------------------|------------------|
+| amount_multiple_tariff | number         | страховая сумма(из перечня amount_available)| Да/Нет (прим. 1) |
+| amount_one_time_tariff | number         | страховая сумма(из перечня amount_available)| Нет/Да (прим. 1) |
+| country                | array(numbers) | список идентификаторов стран                | Да               |
+| currency_type          | string         | валюта заказа                               | Да               |
+| date_from              | string         | дата начала действия договора               | Да               |
+| date_to                | string         | дата окончания действия договора            | Да               |
+| days_count             | number         | кол-во дней страховой защиты                | Да/Нет (прим. 1) |
+| insuring_type          | string         | тип страхователя                            | Да               |
+| medicine_franchise     | number         | франшиза                                    | Да (прим.2)      |
+| multiple_tariff        | number         | идентификатор программы                     | Да/Нет (прим. 1) |
+| one_time_tariff        | number         | идентификатор программы                     | Нет/Да (прим. 1) |
+| period                 | number         | период действия полиса                      | Да/Нет (прим. 1) |
+| start_alien            | boolean        | начало поездки с терр. ин-го. гос-ва        | Нет              |
+| traveling_type         | string         | тип поездки                                 | Да               |
+| clients_comment        | string         | комментарий                                 | Нет              |
 
 **Параметры валидации**
 
